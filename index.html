@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Roots &amp; Wings Photo Preserve, LLC</title>
+<style>
+:root{--bg:#f5f1e8;--ink:#26372c;--muted:#647065;--accent:#8a6a3f;--card:#fffdf7;--line:#d9d2c3}
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,serif;background:var(--bg);color:var(--ink)}
+nav{position:sticky;top:0;background:rgba(245,241,232,.96);border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;padding:16px 6%;z-index:2}
+.brand{font-size:22px;font-weight:700;letter-spacing:.04em}
+.navlinks{display:flex;gap:22px;font:14px Arial,sans-serif}
+.navlinks a{color:var(--ink);text-decoration:none}
+.btn{display:inline-block;background:var(--ink);color:white!important;padding:13px 20px;border-radius:999px;text-decoration:none;font:700 14px Arial,sans-serif}
+.hero{padding:90px 7% 80px;display:grid;grid-template-columns:1.2fr .8fr;gap:50px;align-items:center;background:linear-gradient(135deg,#e9e3d5,#f8f4eb)}
+.eyebrow{text-transform:uppercase;letter-spacing:.18em;font:700 12px Arial,sans-serif;color:var(--accent)}
+h1{font-size:clamp(48px,7vw,82px);line-height:.92;margin:14px 0 22px}
+h2{font-size:38px;margin:0 0 14px}
+.tagline{font-size:25px;font-style:italic;color:var(--accent);margin-bottom:20px}
+.hero p,.section p{font-size:18px;line-height:1.7;color:var(--muted)}
+.hero-art{min-height:390px;border-radius:28px;background:radial-gradient(circle at 70% 25%,#b8c8a8 0 8%,transparent 9%),linear-gradient(155deg,#82946e,#4d644c 58%,#324638);position:relative;overflow:hidden;box-shadow:0 22px 55px #26372c22}
+.hero-art:before{content:'';position:absolute;inset:20% -10% -15%;background:#d5c69e;border-radius:50% 50% 0 0;transform:rotate(-8deg)}
+.hero-art:after{content:'Bamboo • Pond • Hills • Woods';position:absolute;bottom:25px;left:25px;color:white;font:600 14px Arial,sans-serif;letter-spacing:.08em}
+.section{padding:78px 7%;max-width:1200px;margin:auto}
+.center{text-align:center}
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:35px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:28px}
+.card h3{font-size:21px;margin:8px 0}
+.card p{font-size:15px}
+.booking{background:var(--ink);color:white;border-radius:28px;padding:55px;display:flex;justify-content:space-between;align-items:center;gap:30px}
+.booking p{color:#dbe2d8}
+.booking .btn{background:#f4ead5;color:var(--ink)!important}
+.rules{display:grid;grid-template-columns:1fr 1fr;gap:25px}
+.rules ul{line-height:2;font-family:Arial,sans-serif;color:var(--muted)}
+footer{padding:35px 7%;border-top:1px solid var(--line);font:14px Arial,sans-serif;color:var(--muted);display:flex;justify-content:space-between;gap:20px}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:55px}.features{grid-template-columns:1fr 1fr}.rules{grid-template-columns:1fr}.navlinks{display:none}.booking{display:block}.booking .btn{margin-top:20px}}
+@media(max-width:520px){.features{grid-template-columns:1fr}h1{font-size:50px}.hero-art{min-height:280px}}
+</style>
+</head>
+<body>
+<div class="root">
+<nav><div class="brand">Roots &amp; Wings</div><div class="navlinks"><a href="#about">The Preserve</a><a href="#gallery">Gallery</a><a href="#rules">Guidelines</a><a class="btn" href="#booking">Book the Preserve</a></div></nav>
+<main>
+<section class="hero"><div><div class="eyebrow">Cherryville, North Carolina • Launching Spring 2027</div><h1>Roots &amp; Wings<br>Photo Preserve, LLC</h1><div class="tagline">Where memories take root and stories take flight.</div><p>A peaceful 10.5-acre natural setting created for photographers and content creators. Bring your vision and let the land become part of the story.</p><a class="btn" href="#booking">Reserve Your Session</a></div><div class="hero-art" role="img" aria-label="Illustrated green preserve landscape"></div></section>
+<section id="about" class="section center"><div class="eyebrow">A place to create</div><h2>Nature gives you the backdrop.</h2><p>Explore a bamboo forest, pond, rolling open hills, mature woods and beautiful trees—all on one private preserve in Cherryville, NC.</p><div class="features"><div class="card"><div>🌿</div><h3>Bamboo Forest</h3><p>Distinctive texture, movement and natural drama.</p></div><div class="card"><div>💧</div><h3>Pond</h3><p>A serene waterside setting for portraits and storytelling.</p></div><div class="card"><div>🌾</div><h3>Open Hills</h3><p>Wide, airy views with room for creative concepts.</p></div><div class="card"><div>🌳</div><h3>Woods &amp; Trees</h3><p>Natural shade and timeless outdoor character.</p></div></div></section>
+<section id="gallery" class="section center"><div class="eyebrow">Coming together</div><h2>Our story is still growing.</h2><p>The preserve is being prepared for its Spring 2027 launch. We’ll be adding real photos as the bamboo path, photo props and creative spaces take shape.</p><div class="features"><div class="card"><div>📷</div><h3>Bamboo Forest</h3><p>Photos coming soon as the path is prepared.</p></div><div class="card"><div>💧</div><h3>Pond</h3><p>A peaceful setting we’ll be photographing soon.</p></div><div class="card"><div>🌾</div><h3>Rolling Hills</h3><p>Open-space views and seasonal scenery.</p></div><div class="card"><div>✨</div><h3>Photo Props</h3><p>New creative settings will be added as they are built.</p></div></div></section>
+<section id="rules" class="section"><div class="rules"><div><div class="eyebrow">Before you book</div><h2>A preserve made for creativity.</h2><p>We welcome photographers and content creators looking for an outdoor location with variety and privacy.</p></div><div class="card"><h3>Our preserve guidelines</h3><ul><li>Pets are welcome and must remain on a leash.</li><li>Please pick up and properly dispose of pet waste.</li><li>No confetti.</li><li>No smoke bombs.</li><li>No fake or silk flowers.</li><li>No balloon releases.</li></ul></div></div></section>
+<section id="booking" class="section"><div class="booking"><div><div class="eyebrow" style="color:#d9c39b">Spring 2027</div><h2>Ready to create here?</h2><p>Booking will open for our Spring 2027 launch. Contact Donna to learn more about availability and sessions.</p></div><a class="btn" href="tel:2519447757">Book / Contact Donna</a></div></section>
+<section class="section center"><div class="eyebrow">Roots &amp; Wings Photo Preserve, LLC</div><p><strong>Donna Seagle</strong><br>140 Russola Drive • Cherryville, NC<br><a href="tel:2519447757" style="color:var(--ink)">251-944-7757</a></p></section>
+</main>
+<footer><span>© 2027 Roots &amp; Wings Photo Preserve, LLC</span><span>Where memories take root and stories take flight.</span></footer>
+</div>
+</body>
+</html>
